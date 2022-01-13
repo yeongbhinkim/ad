@@ -1,13 +1,12 @@
 package com.kh.fourbutton;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     Button[] buttons = new Button[4];
@@ -32,19 +31,22 @@ public class MainActivity extends AppCompatActivity {
         buttons[1].setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:/911"));
+                startActivity(intent);
             }
         });
         buttons[2].setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("content://media/internal/images/media"));
+                startActivity(intent);
             }
         });
         buttons[3].setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-
+                finish();
             }
         });
 
