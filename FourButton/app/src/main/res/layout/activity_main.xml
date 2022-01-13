@@ -8,25 +8,25 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnNate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="홈페이지열기" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn911"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="전화걸기" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btnGal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="갤러리열기" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btnEnd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="끝내기" />
