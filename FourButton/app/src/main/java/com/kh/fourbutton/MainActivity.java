@@ -9,12 +9,18 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+
+
     Button[] buttons = new Button[4];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setIcon(R.drawable.app);
+
 
         buttons[0] = (Button) findViewById(R.id.btnNate);
         buttons[1] = (Button) findViewById(R.id.btn911);

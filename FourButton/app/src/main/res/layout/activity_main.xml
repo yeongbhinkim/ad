@@ -5,29 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
 
     <Button
         android:id="@+id/btnNate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="홈페이지열기" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        android:text="홈페이지열기"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn911"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="전화걸기" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF9800"
+        android:text="전화걸기"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnGal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="갤러리열기" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFE500"
+        android:text="갤러리열기"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnEnd"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="끝내기" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#00FF0A"
+        android:text="끝내기"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 </LinearLayout>
