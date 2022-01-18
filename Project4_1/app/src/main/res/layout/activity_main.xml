@@ -10,57 +10,46 @@
     <EditText
         android:id="@+id/Edit1"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
+        android:layout_weight="0"
         android:ems="10"
-        android:inputType="number|text"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:inputType="number|text" />
 
     <EditText
         android:id="@+id/Edit2"
         android:layout_width="match_parent"
-        android:layout_height="57dp"
+        android:layout_height="60dp"
+        android:layout_weight="0"
         android:ems="10"
-        android:inputType="number|text"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:inputType="number|text" />
 
-    <LinearLayout
-        android:id="@+id/cont1"
+    <Button
+        android:id="@+id/BtnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_weight="0"
+        android:text="더하기" />
 
-        <Button
-            android:id="@+id/BtnAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="더하기"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/BtnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="빼기" />
 
-        <Button
-            android:id="@+id/BtnDiv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="나누기"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/BtnMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="곱하기" />
 
-        <Button
-            android:id="@+id/BtnSub"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="빼기"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/BtnMul"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="곱하기"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/BtnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="나누기" />
 
     <Button
         android:id="@+id/BtnP"
@@ -72,8 +61,10 @@
     <TextView
         android:id="@+id/TextResult"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:textColor="#F44336"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:text="계산결과"
+        android:textColor="#FB0505"
+        android:textSize="34sp" />
+
 </LinearLayout>
